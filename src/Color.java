@@ -1,7 +1,7 @@
 public class Color {
     public static void main(String[] args) {
-        int month = 'n';
-        switch (month){
+        int color = 'n';
+        switch (color){
             case 'c':
                 System.out.println("Pomidor");break;
             case 'z':
