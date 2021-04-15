@@ -1,6 +1,6 @@
 public class MultiTable {
     public static void main(String[] args) {
-        int n = 115;
+        int n = 10;
         int tab[][] = new int[n][n];
 
         for (int i = 1; i <= tab.length; i++) {

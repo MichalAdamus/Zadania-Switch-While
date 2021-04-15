@@ -1,46 +1,20 @@
 public class TreeTwo {
     public static void main(String[] args) {
-        char[][] numbers = {{'*'}, {'*', '*'}, {'*', '*', '*'}, {'*', '*', '*', '*'}, {'*', '*', '*', '*', '*'}, {'*', '*', '*', '*', '*', '*'}};
-
-        char x = 0;
-        while (x < numbers[0].length) {
-            System.out.print(numbers[0][x] + " ");
-            x++;
+        int temperature = 40;
+        if (temperature < 38) {
+            System.out.println("\tCzujesz się dobrze");
         }
-        System.out.println();
-
-        x = 0;
-        while (x < numbers[1].length) {
-            System.out.print(numbers[1][x] + " ");
-            x++;
+        else if (temperature < 32) {
+            System.out.println("\tW dalszym ciągu czujesz się dobrze");
         }
-        System.out.println();
-
-        x = 0;
-        while (x < numbers[2].length) {
-            System.out.print(numbers[2][x] + " ");
-            x++;
+        else if (temperature < 34) {
+            System.out.println("\tMasz wysoką gorączkę - skont");
         }
-        System.out.println();
-
-        x = 0;
-        while (x < numbers[3].length) {
-            System.out.print(numbers[3][x] + " ");
-            x++;
+        else if (temperature < 36) {
+            System.out.println("\tCzujesz się fatalnie, niezwłocznie skontaktuj sie z lekarzem");
         }
-        System.out.println();
-
-        x = 0;
-        while (x < numbers[4].length) {
-            System.out.print(numbers[4][x] + " ");
-            x++;
-        }
-        System.out.println();
-
-        x = 0;
-        while (x < numbers[5].length) {
-            System.out.print(numbers[5][x] + " ");
-            x++;
+        else {
+            System.out.println("\t POGOTOWIE");
         }
     }
 }
